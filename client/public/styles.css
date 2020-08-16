@@ -1,0 +1,106 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+    
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+  
+li a:hover {
+    background-color: rgba(219, 216, 48, 0.945);
+}
+
+#getStarted {
+    float:right;
+    background-color: #52de97;
+    /* font-size: 15px; */
+    /* margin: 10px; */
+}
+/* #login{
+    float:right;
+} */
+#title{
+    font-size: 20px;
+}
+
+p {
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.description{
+    /* padding: 4%; */
+    padding-left: 420px;
+    padding-right: 420px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: rgb(72, 185, 72);
+    font-size: 40px;
+}
+
+.email-textbox{
+    border: gray solid;
+    height: 30px;
+    width: 35%;
+    /* margin-right: 30px;
+    margin-top: 50px; */
+    margin: auto;
+    text-align: center;
+}
+.enter-email{
+    text-align: center;
+    background-color: #52de97;
+    padding: 50px;
+    
+}
+.submit-btn{
+    height: 40px;
+    width: 20%;
+    background-color: rgb(199, 195, 195);
+    border: gray solid 3px;
+    font-size: 20px;
+    color: black;
+    /* //margin-top: 50px; */
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+.testimonial-row{
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+}
+
+.test-img{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.test-review{
+    font-size: 15px;
+    line-height: 2;
+}
+
+.test2-img{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
