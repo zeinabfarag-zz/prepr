@@ -126,10 +126,12 @@ h2 {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between;
+    margin-right: 125px;
+    margin-left: 125px; 
 }
 
 .icon{
-    margin: 80px; 
+    margin: 40px; 
 }
 
 .service-description{
