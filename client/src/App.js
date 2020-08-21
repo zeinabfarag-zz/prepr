@@ -6,7 +6,7 @@ import Home from "./Home";
 function App() {
   return (
     <BrowserRouter basename={"/prepr"}>
-      <Route path="/" component={Home} />
+      <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
     </BrowserRouter>
   );
 }
