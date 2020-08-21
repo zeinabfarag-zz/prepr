@@ -35,12 +35,12 @@ const Home = () => {
         <div>
           <h2>Hire from our exclusive network of software developers!</h2>
           <p className="description">Build your next app, eCommerce site, or website with our network of
-            software developers. Matched to you and your project needs in under 24 hours </p>
+            software developers. Matched to you and your project needs in under 24 hours. </p>
         </div>
   
         <div className="enter-email">
-          <input type="email" className="email-textbox" value="Your email address" autofocus></input>
-          <input type="submit" className="submit-btn"></input>
+          <input type="email" className="email-textbox" placeholder="Your email address" autofocus></input>
+          <input type="submit" className="submit-btn" value="Submit"/>
         </div>
 </div>
 
@@ -60,27 +60,23 @@ const Home = () => {
         <h2>Testimonials</h2>
         <div className="testimonial-row">
           <img className="test-img" alt="" src="https://www.senseiprojectsolutions.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png"></img>
-          <p className="test-review">Prow scuttle parrel provost Sail ho shrouds spirits boom
-          mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog
-          yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog
-          black jack gangway rutters.
+          <p className="test-review">I own a small clothing store and lost a lot of work due to COVID. I wanted to make a website but I didn't know how. 
+          Skills Marketplace matched me with the right person and I had a site up and running in no time. 
           </p>
         </div>
 
         <div className="testimonial-row">
           <img className="test2-img" alt="" src="https://www.senseiprojectsolutions.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png"></img>
-          <p className="test-review">Deadlights jack lad schooner scallywag dance the hempen
-          jig carouser broadside cable strike colors. Bring a spring upon her cable holystone
-          blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon
-          chase. Belay yo-hoho keelhaul squiﬀy black spot yardarm spyglass sheet transom heave
-          to.
+          <p className="test-review">Social distancing has been hard on my restaurant. I wanted people to know that we were open for business and delivery.
+          I was able to match with Anna on here and she helped me get a website up. Now more people are calling in for orders and we're doing better.
           </p>
         </div>
 
       </div>
       <div>
         <h2>Hire the right software developer today</h2>
-        <p className="description">Whether you’re building and app, and eCommerce store, or a website or need a hand from an experienced web developer. Tell us what you’re working on and your budget and you can get matched with a member of our network of developers and designers in under 24 hours.</p>
+        <p className="description">Whether you’re building and app, and eCommerce store, or a website or need a hand from an experienced web developer. 
+        Tell us what you’re working on and your budget and you can get matched with a member of our network of developers and designers in under 24 hours.</p>
       </div>
 
       <div>
@@ -119,14 +115,13 @@ const Home = () => {
       </div>
 
       <div className="enter-email">
-        <input type="email" className="email-textbox" value="Your email address" autofocus></input>
-        <input type="submit" className="submit-btn"></input>
+        <input type="email" className="email-textbox" placeholder="Your email address" autofocus></input>
+        <input type="submit" className="submit-btn" value="Submit"/>
       </div>
 
       <div className="about-us">
         <h2>About Us</h2>
-        <p className="text">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
-        Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+        <p className="text">SkillsMarketPlace is an online community that matches businesses who have solutions with a professional who can deliver it.</p>
 
       </div>
 
