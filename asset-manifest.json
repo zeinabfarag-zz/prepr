@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/prepr/static/js/main.25d63c74.chunk.js",
-    "main.js.map": "/prepr/static/js/main.25d63c74.chunk.js.map",
+    "main.js": "/prepr/static/js/main.4503fa53.chunk.js",
+    "main.js.map": "/prepr/static/js/main.4503fa53.chunk.js.map",
     "runtime-main.js": "/prepr/static/js/runtime-main.5d830f39.js",
     "runtime-main.js.map": "/prepr/static/js/runtime-main.5d830f39.js.map",
     "static/js/2.870d9d6e.chunk.js": "/prepr/static/js/2.870d9d6e.chunk.js",
     "static/js/2.870d9d6e.chunk.js.map": "/prepr/static/js/2.870d9d6e.chunk.js.map",
     "index.html": "/prepr/index.html",
-    "precache-manifest.666f34795809614f02343f7b637eac52.js": "/prepr/precache-manifest.666f34795809614f02343f7b637eac52.js",
+    "precache-manifest.60cb274fce7ec1909df140d0d1549b7b.js": "/prepr/precache-manifest.60cb274fce7ec1909df140d0d1549b7b.js",
     "service-worker.js": "/prepr/service-worker.js",
     "static/js/2.870d9d6e.chunk.js.LICENSE.txt": "/prepr/static/js/2.870d9d6e.chunk.js.LICENSE.txt",
     "static/media/ecommerce.svg": "/prepr/static/media/ecommerce.2b0c63cb.svg",
@@ -28,6 +28,6 @@
   "entrypoints": [
     "static/js/runtime-main.5d830f39.js",
     "static/js/2.870d9d6e.chunk.js",
-    "static/js/main.25d63c74.chunk.js"
+    "static/js/main.4503fa53.chunk.js"
   ]
 }
