@@ -1,0 +1,162 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+    
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+  
+li a:hover {
+    background-color: rgba(219, 216, 48, 0.945);
+}
+
+#getStarted {
+    float:right;
+    background-color: #52de97;
+    /* font-size: 15px; */
+    /* margin: 10px; */
+}
+/* #login{
+    float:right;
+} */
+#title{
+    font-size: 20px;
+}
+
+p {
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.description{
+    /* padding: 4%; */
+    padding-left: 420px;
+    padding-right: 420px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: rgb(72, 185, 72);
+    font-size: 40px;
+}
+
+.email-textbox{
+    border: gray solid;
+    height: 30px;
+    width: 35%;
+    /* margin-right: 30px;
+    margin-top: 50px; */
+    margin: auto;
+    text-align: center;
+}
+.enter-email{
+    text-align: center;
+    background-color: #52de97;
+    padding: 50px;
+    
+}
+.submit-btn{
+    height: 40px;
+    width: 20%;
+    background-color: rgb(199, 195, 195);
+    border: gray solid 3px;
+    font-size: 20px;
+    color: black;
+    /* //margin-top: 50px; */
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+.testimonial-row{
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+}
+
+.test-img{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.test-review{
+    font-size: 15px;
+    line-height: 2;
+}
+
+.test2-img{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.website-container{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 80px 25px; 
+}
+
+.website1, .website2, .website3, .website4, .website5, .website6, .website7, .website8{
+    width: 300px;
+    height: 125px; 
+}
+
+.ecommerce, .laptop, .responsive, .shopify, .wordpress, .woocommerce{
+    width: 200px;
+    height: 200px;
+}
+
+.icon-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-right: 125px;
+    margin-left: 125px; 
+}
+
+.icon{
+    margin: 40px; 
+}
+
+.service-description{
+    text-align: center;
+}
+
+.about-us{
+    margin: 80px 25px; 
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex; 
+    justify-content: space-evenly;
+    border-top: 2px solid #52de97;
+    border-bottom: 2px solid #52de97;
+    width: 100%;
+    height: 200px; 
+    padding-top: 100px; 
+}
+
+.copyright{
+    text-align: center;
+}

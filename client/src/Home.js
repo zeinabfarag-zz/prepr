@@ -1,4 +1,5 @@
 import React from "react";
+import styling from "./css/base-styling.css";
 import website1 from "./Images/website1.png";
 import website2 from "./Images/website2.png";
 import website3 from "./Images/website3.png";
