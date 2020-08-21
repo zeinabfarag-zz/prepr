@@ -5,7 +5,7 @@ import Home from "./Home";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/prepr"}>
       <Route path="/" component={Home} />
     </BrowserRouter>
   );
