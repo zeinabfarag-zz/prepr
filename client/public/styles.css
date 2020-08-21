@@ -1,3 +1,15 @@
+* {
+    /* box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    background-color: none;
+    
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -7,7 +19,6 @@ ul {
   
 li {
     float: left;
-    
 }
   
 li a {
@@ -18,21 +29,20 @@ li a {
     text-decoration: none;
     
 }
-  
-li a:hover {
-    background-color: rgba(219, 216, 48, 0.945);
-}
 
-#getStarted {
+.getStarted {
     float:right;
     background-color: #52de97;
     /* font-size: 15px; */
     /* margin: 10px; */
 }
-/* #login{
-    float:right;
-} */
-#title{
+
+.navbar a:hover {
+    background-color: #52de97;
+    color: white;
+}
+
+.title{
     font-size: 20px;
 }
 
@@ -48,11 +58,19 @@ p {
     padding-right: 420px;
     text-align: center;
 }
+
 h2 {
     text-align: center;
     color: rgb(72, 185, 72);
     font-size: 40px;
 }
+
+/* .header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+} */
 
 .email-textbox{
     border: gray solid;
@@ -63,12 +81,14 @@ h2 {
     margin: auto;
     text-align: center;
 }
+
 .enter-email{
     text-align: center;
     background-color: #52de97;
     padding: 50px;
     
 }
+
 .submit-btn{
     height: 40px;
     width: 20%;
@@ -81,6 +101,7 @@ h2 {
     font-weight: bold;
     
 }
+
 .testimonial-row{
     width: 50%;
     margin: 80px auto 80px auto;
