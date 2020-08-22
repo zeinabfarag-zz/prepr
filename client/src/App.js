@@ -5,8 +5,8 @@ import Home from "./Home";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Route path="/" component={Home} />
+    <BrowserRouter basename={"/prepr"}>
+      <Route path={"/"} component={Home} />
     </BrowserRouter>
   );
 }
