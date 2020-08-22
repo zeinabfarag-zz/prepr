@@ -419,11 +419,11 @@ h2 {
     }
 
     h2 {
-        font-size: 3.7rem;
+        font-size: 3rem;
     }
 
     p {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .navbar{
@@ -431,7 +431,8 @@ h2 {
     }
 
     .navbar li {
-        font-size: 2rem;
+        display: inline;
+        font-size: 1rem;
     }
 
     .header {
@@ -450,47 +451,45 @@ h2 {
 
     .enter-email {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         justify-content: center;
-        align-content: space-between;
         width: 100%;
-        height: 17vh;
         padding: 5% 0%;
     }
 
     .enter-email > input {
-        font-size: 1.5rem;
-        height: 65px;
-        margin: 2% 0%;
+        font-size: 1.2rem;
+        height: 50px;
+        margin: 0% 1%;
     }
 
     .email-textbox {
         border-radius: 10% / 120%;
-        width: 80%;
+        width: 50%;
     }
 
     .submit-btn {
         border-radius: 22% / 100%;
-        width: 50%;
+        width: 20%;
     }
 
     .website-container {
         display: flex;
-        justify-content: center;
-        flex-flow: column nowrap;
+        justify-content: space-around;
+        flex-flow: row wrap;
         margin: 10% 0%;
     }
 
     .website-container > img {
-        width: 100%;
-        height: 100%;
+        width: 25%;
+        /* height: 20%; */
     }
 
     .testimonials {
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
-        height: 100vh;
+        /* justify-content: center; */
+        /* height: 100vh; */
         padding: 10vh 0%;
     }
 
@@ -500,16 +499,20 @@ h2 {
 
     .testimonial-row {
         display: flex;
-        flex-flow: column nowrap;
-        text-align: center;
+        flex-flow: row nowrap;
+        text-align: left;
         width: 100%;
-        padding: 0% 5%;
+        padding: 0% 15%;
         margin: 5vh 0%;
     }
 
     .testimonial-row > p {
-        font-size: 1.7rem;
+        font-size: 1rem;
         padding: 5%;
+    }
+
+    .testimonial-row:last-of-type {
+        flex-direction: row-reverse;
     }
 
     .test-img {
@@ -541,7 +544,7 @@ h2 {
 
     .icon > img {
         padding-bottom: 7%;
-        height: 15vh;
+        height: 20vh;
     }
 
     .about-us {
@@ -554,19 +557,20 @@ h2 {
 
     .footer {
         display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-evenly;
-        height: 90vh;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        height: 40vh;
         vertical-align: left;
-        padding: 0px;
+        padding-top: 5%;
         padding-left: 10%;
     }
 
     .footer > * {
-        font-size: 2rem;
+        font-size: 1rem;
+        padding: 0% 5%;
     }
 
     .footer > .title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
