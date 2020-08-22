@@ -31,16 +31,14 @@ const Home = () => {
       </div>
 
 <div className="header">
-  
-        <div>
           <h2>Hire from our exclusive network of software developers!</h2>
           <p className="description">Build your next app, eCommerce site, or website with our network of
             software developers. Matched to you and your project needs in under 24 hours. </p>
-        </div>
+      
   
-        <div className="enter-email">
-          <input type="email" className="email-textbox" placeholder="Your email address" autofocus></input>
-          <input type="submit" className="submit-btn" value="Submit"/>
+        <div className="enter-email" style={{backgroundColor: "white"}}>
+          <input type="email" className="email-textbox" placeholder="Your email address" style={{border: "1.5px solid black"}} autofocus></input>
+          <input type="submit" className="submit-btn" value="Submit" style={{background: "linear-gradient(#52de97, #5dc485)", color: "white"}}/>
         </div>
 </div>
 
@@ -66,20 +64,21 @@ const Home = () => {
         </div>
 
         <div className="testimonial-row">
-          <img className="test2-img" alt="" src="https://www.senseiprojectsolutions.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png"></img>
+          <img className="test-img" alt="" src="https://www.senseiprojectsolutions.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png"></img>
           <p className="test-review">Social distancing has been hard on my restaurant. I wanted people to know that we were open for business and delivery.
           I was able to match with Anna on here and she helped me get a website up. Now more people are calling in for orders and we're doing better.
           </p>
         </div>
 
       </div>
-      <div>
+
+      <div className="hire-us">
         <h2>Hire the right software developer today</h2>
         <p className="description">Whether you’re building and app, and eCommerce store, or a website or need a hand from an experienced web developer. 
         Tell us what you’re working on and your budget and you can get matched with a member of our network of developers and designers in under 24 hours.</p>
       </div>
 
-      <div>
+      <div className="web-services">
         <h2>We provide services in the following areas</h2>
         <div className="icon-container">
           <div className="icon">
@@ -122,7 +121,6 @@ const Home = () => {
       <div className="about-us">
         <h2>About Us</h2>
         <p className="text">SkillsMarketPlace is an online community that matches businesses who have solutions with a professional who can deliver it.</p>
-
       </div>
 
       <div className="footer">
