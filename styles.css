@@ -1,3 +1,18 @@
+* {
+    /* box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    background-color: none;
+    
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,10 +20,6 @@ ul {
     overflow: hidden;
 }
   
-li {
-    float: left;
-    
-}
   
 li a {
     display: block;
@@ -18,69 +29,51 @@ li a {
     text-decoration: none;
     
 }
-  
-li a:hover {
-    background-color: rgba(219, 216, 48, 0.945);
+
+.getStarted {
+    float:right;
+    background: #52de97;
 }
 
-#getStarted {
-    float:right;
+.navbar a:hover {
     background-color: #52de97;
-    /* font-size: 15px; */
-    /* margin: 10px; */
+    color: white;
 }
-/* #login{
-    float:right;
-} */
-#title{
+
+.title{
     font-size: 20px;
 }
 
 p {
-    padding: 30px;
-    font-size: 18px;
+    font-size: 1.5rem;
     line-height: 1.2;
 }
-
-.description{
-    /* padding: 4%; */
-    padding-left: 420px;
-    padding-right: 420px;
-    text-align: center;
-}
+ 
 h2 {
-    text-align: center;
     color: rgb(72, 185, 72);
-    font-size: 40px;
+    font-size: 2.4rem;
 }
 
 .email-textbox{
-    border: gray solid;
-    height: 30px;
+    height: 5vh;
     width: 35%;
-    /* margin-right: 30px;
-    margin-top: 50px; */
-    margin: auto;
     text-align: center;
 }
+
 .enter-email{
     text-align: center;
     background-color: #52de97;
-    padding: 50px;
-    
 }
+
 .submit-btn{
-    height: 40px;
-    width: 20%;
-    background-color: rgb(199, 195, 195);
-    border: gray solid 3px;
+    height: 4vh;
+    background: linear-gradient(white, #d9fce6);
     font-size: 20px;
     color: black;
-    /* //margin-top: 50px; */
-    margin-left: 20px;
     font-weight: bold;
     
 }
+
 .testimonial-row{
     width: 50%;
     margin: 80px auto 80px auto;
@@ -88,9 +81,7 @@ h2 {
 }
 
 .test-img{
-    width: 30%;
     float: left;
-    margin-right: 30px;
     border-radius: 50%;
 }
 .test-review{
@@ -98,40 +89,8 @@ h2 {
     line-height: 2;
 }
 
-.test2-img{
-    width: 30%;
-    float: right;
-    margin-left: 30px;
-    border-radius: 50%;
-}
-
-.website-container{
-    display: flex; 
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 80px 25px; 
-}
-
-.website1, .website2, .website3, .website4, .website5, .website6, .website7, .website8{
-    width: 300px;
-    height: 125px; 
-}
-
-.ecommerce, .laptop, .responsive, .shopify, .wordpress, .woocommerce{
-    width: 200px;
-    height: 200px;
-}
-
-.icon-container{
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-between;
-    margin-right: 125px;
-    margin-left: 125px; 
-}
-
 .icon{
-    margin: 40px; 
+    margin: 5%; 
 }
 
 .service-description{
@@ -153,10 +112,465 @@ h2 {
     border-top: 2px solid #52de97;
     border-bottom: 2px solid #52de97;
     width: 100%;
-    height: 200px; 
-    padding-top: 100px; 
 }
 
 .copyright{
     text-align: center;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 750px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+
+    .header {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        align-content: space-around;
+        width: 100%;
+        height: 100vh;
+        padding-top: 12%;
+    }
+
+    .header > * {
+        padding: 0px 5%;
+    }
+
+    .enter-email {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+        height: 15vh;
+        padding: 10% 0%;
+    }
+
+    .enter-email > input {
+        font-size: 1rem;
+        height: 45px;
+        margin: 2% 0%;
+    }
+
+    .email-textbox {
+        border-radius: 17% / 90%;
+        width: 80%;
+    }
+
+    .submit-btn {
+        border-radius: 22% / 100%;
+        width: 50%;
+    }
+
+    .website-container {
+        display: flex;
+        justify-content: center;
+        flex-flow: column nowrap;
+        margin: 10% 0%;
+    }
+
+    .website-container > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .testimonials > h2 {
+        margin: 7vh 0%;
+    }
+
+    .testimonial-row {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        width: 100%;
+        padding: 0% 5%;
+        margin: 5vh 0%;
+    }
+
+    .testimonial-row > p {
+        padding: 5%;
+    }
+
+    .test-img {
+        height: 15vh;
+        align-self: center;
+    }
+
+    .hire-us, .hire-us > p {
+        text-align: center;
+        padding: 20% 5%;
+    }
+
+    .web-services {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .icon {
+        margin: 7vh 0%;
+    }
+
+    .icon > img {
+        padding-bottom: 0%;
+        height: 20vh;
+    }
+
+    .about-us {
+        text-align: center;
+    }
+
+    .about-us > p {
+        padding: 5%;
+    }
+
+    .footer {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 90vh;
+        vertical-align: left;
+        padding: 0px;
+        padding-left: 10%;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width: 751px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    h2 {
+        font-size: 3.7rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .navbar{
+        padding-top: 4vh;
+    }
+
+    .navbar li {
+        font-size: 2rem;
+    }
+
+    .header {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        padding-top: 12%;
+    }
+
+    .header > * {
+        padding: 0% 10%;
+    }
+
+    .enter-email {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 5% 0%;
+    }
+
+    .enter-email > input {
+        font-size: 1.5rem;
+        height: 65px;
+        margin: 2% 0%;
+    }
+
+    .email-textbox {
+        border-radius: 10% / 90%;
+        width: 80%;
+    }
+
+    .submit-btn {
+        border-radius: 22% / 100%;
+        width: 50%;
+    }
+
+    .website-container {
+        display: flex;
+        justify-content: center;
+        flex-flow: column nowrap;
+        margin: 10% 0%;
+    }
+
+    .website-container > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        /* height: 100vh; */
+        padding: 10vh 0%;
+    }
+
+    .testimonials > h2 {
+        margin-bottom: 2vh;
+    }
+
+    .testimonial-row {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        width: 100%;
+        padding: 0% 5%;
+        margin: 5vh 0%;
+    }
+
+    .testimonial-row > p {
+        font-size: 1.7rem;
+        padding: 5%;
+    }
+
+    .test-img {
+        height: 15vh;
+        align-self: center;
+    }
+
+    .hire-us, .hire-us > p {
+        text-align: center;
+        padding: 10% 5%;
+    }
+
+    .web-services {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .icon-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    .icon {
+        margin: 4vh 0%;
+    }
+
+    .icon > img {
+        padding-bottom: 7%;
+        height: 15vh;
+    }
+
+    .about-us {
+        text-align: center;
+    }
+
+    .about-us > p {
+        padding: 5%;
+    }
+
+    .footer {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        height: 90vh;
+        vertical-align: left;
+        padding: 0px;
+        padding-left: 10%;
+    }
+
+    .footer > * {
+        font-size: 2rem;
+    }
+
+    .footer > .title {
+        font-size: 3rem;
+    }
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 960px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    .navbar{
+        padding-top: 4vh;
+    }
+
+    .navbar li {
+        display: inline;
+        font-size: 1rem;
+    }
+
+    .header {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        align-content: space-around;
+        width: 100%;
+        height: 70vh;
+        padding-top: 12%;
+    }
+
+    .header > * {
+        padding: 0% 10%;
+    }
+
+    .enter-email {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        width: 100%;
+        padding: 5% 0%;
+    }
+
+    .enter-email > input {
+        font-size: 1.2rem;
+        height: 50px;
+        margin: 0% 1%;
+    }
+
+    .email-textbox {
+        border-radius: 10% / 120%;
+        width: 50%;
+    }
+
+    .submit-btn {
+        border-radius: 22% / 100%;
+        width: 20%;
+    }
+
+    .website-container {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        margin: 10% 0%;
+    }
+
+    .website-container > img {
+        width: 25%;
+        /* height: 20%; */
+    }
+
+    .testimonials {
+        display: flex;
+        flex-flow: row wrap;
+        /* justify-content: center; */
+        /* height: 100vh; */
+        padding: 10vh 0%;
+    }
+
+    .testimonials > h2 {
+        margin-bottom: 2vh;
+    }
+
+    .testimonial-row {
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: left;
+        width: 100%;
+        padding: 0% 15%;
+        margin: 5vh 0%;
+    }
+
+    .testimonial-row > p {
+        font-size: 1rem;
+        padding: 5%;
+    }
+
+    .testimonial-row:last-of-type {
+        flex-direction: row-reverse;
+    }
+
+    .test-img {
+        height: 15vh;
+        align-self: center;
+    }
+
+    .hire-us, .hire-us > p {
+        text-align: center;
+        padding: 10% 5%;
+    }
+
+    .web-services {
+        text-align: center;
+        height: 100vh;
+        padding: 5%;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .icon {
+        margin: 4vh 5%;
+    }
+
+    .icon > img {
+        padding-bottom: 7%;
+        height: 20vh;
+    }
+
+    .about-us {
+        text-align: center;
+    }
+
+    .about-us > p {
+        padding: 5%;
+    }
+
+    .footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        height: 40vh;
+        vertical-align: left;
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+
+    .footer > * {
+        font-size: 1rem;
+        padding: 0% 5%;
+    }
+
+    .footer > .title {
+        font-size: 2rem;
+    }
 }
