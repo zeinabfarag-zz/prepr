@@ -13,6 +13,7 @@ import responsive from "./Images/responsive-design.svg";
 import shopify from "./Images/shopify.svg";
 import wordpress from "./Images/wordpress.svg";
 import woocommerce from "./Images/woocommerce.svg";
+import {Link} from "react-router-dom";
 
 
 
@@ -147,6 +148,7 @@ const Home = () => {
 
       </div>
       <p className="copyright">Copyright 2020</p>
+      <Link to ="/contact">Contact Me!!!!</Link>
     </div>
   );
 };

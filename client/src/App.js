@@ -1,12 +1,17 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Link, Redirect } from "react-router-dom";
 
 import Home from "./Home";
+import Contact from "./Contact";
 
 function App() {
   return (
     <BrowserRouter basename={"/prepr"}>
-      <Route path={"/"} component={Home} />
+      <Switch>
+        <Route exact path={"/"} component={Home} />
+        <Route exact path={"/contact"} component={Contact} />
+      </Switch>
+      
     </BrowserRouter>
   );
 }
