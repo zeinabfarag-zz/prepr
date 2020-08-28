@@ -13,35 +13,26 @@ import responsive from "./Images/responsive-design.svg";
 import shopify from "./Images/shopify.svg";
 import wordpress from "./Images/wordpress.svg";
 import woocommerce from "./Images/woocommerce.svg";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 
 
 const Home = () => {
   return (
     <div>
-      <div className="navbar">
-        <ul>
-          <li className="title"><a className="active" href="/home"> <b>Skills</b>
-            <b style={{ color: "rgb(72, 185, 72)" }}>Marketplace </b> </a></li>
-          <li><a href="/features">Features</a></li>
-          <li><a href="/community">Community</a></li>
-          <li className="login"> <a href="/login">Login</a> </li>
-          <li className="getStarted"><a href="/getStarted"><b>Get Started</b></a></li>
-        </ul>
-      </div>
-
-<div className="header">
-          <h2>Hire from our exclusive network of software developers!</h2>
-          <p className="description">Build your next app, eCommerce site, or website with our network of
+      <Navbar />
+      <div className="header">
+        <h2>Hire from our exclusive network of software developers!</h2>
+        <p className="description">Build your next app, eCommerce site, or website with our network of
             software developers. Matched to you and your project needs in under 24 hours. </p>
-      
-  
-        <div className="enter-email" style={{backgroundColor: "white"}}>
-          <input type="email" className="email-textbox" placeholder="Your email address" style={{border: "1.5px solid black"}} autofocus></input>
-          <input type="submit" className="submit-btn" value="Submit" style={{background: "linear-gradient(#52de97, #5dc485)", color: "white"}}/>
+
+
+        <div className="enter-email" style={{ backgroundColor: "white" }}>
+          <input type="email" className="email-textbox" placeholder="Your email address" style={{ border: "1.5px solid black" }} autofocus></input>
+          <input type="submit" className="submit-btn" value="Submit" style={{ background: "linear-gradient(#52de97, #5dc485)", color: "white" }} />
         </div>
-</div>
+      </div>
 
       <div className="website-container">
         <img className="website1" src={website1} alt="thumbnail of landing page" />
@@ -59,8 +50,8 @@ const Home = () => {
         <h2>Testimonials</h2>
         <div className="testimonial-row">
           <img className="test-img" alt="" src="https://www.senseiprojectsolutions.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png"></img>
-          <p className="test-review">I own a small clothing store and lost a lot of work due to COVID. I wanted to make a website but I didn't know how. 
-          Skills Marketplace matched me with the right person and I had a site up and running in no time. 
+          <p className="test-review">I own a small clothing store and lost a lot of work due to COVID. I wanted to make a website but I didn't know how.
+          Skills Marketplace matched me with the right person and I had a site up and running in no time.
           </p>
         </div>
 
@@ -75,7 +66,7 @@ const Home = () => {
 
       <div className="hire-us">
         <h2>Hire the right software developer today</h2>
-        <p className="description">Whether you’re building and app, and eCommerce store, or a website or need a hand from an experienced web developer. 
+        <p className="description">Whether you’re building and app, and eCommerce store, or a website or need a hand from an experienced web developer.
         Tell us what you’re working on and your budget and you can get matched with a member of our network of developers and designers in under 24 hours.</p>
       </div>
 
@@ -116,7 +107,7 @@ const Home = () => {
 
       <div className="enter-email">
         <input type="email" className="email-textbox" placeholder="Your email address" autofocus></input>
-        <input type="submit" className="submit-btn" value="Submit"/>
+        <input type="submit" className="submit-btn" value="Submit" />
       </div>
 
       <div className="about-us">
@@ -148,7 +139,7 @@ const Home = () => {
 
       </div>
       <p className="copyright">Copyright 2020</p>
-      <Link to ="/contact">Contact Me!!!!</Link>
+      <Link to="/contact">Contact Me!!!!</Link>
     </div>
   );
 };
