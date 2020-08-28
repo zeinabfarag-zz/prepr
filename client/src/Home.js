@@ -15,6 +15,7 @@ import wordpress from "./Images/wordpress.svg";
 import woocommerce from "./Images/woocommerce.svg";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 
 
@@ -115,29 +116,7 @@ const Home = () => {
         <p className="text">SkillsMarketPlace is an online community that matches businesses who have solutions with a professional who can deliver it.</p>
       </div>
 
-      <div className="footer">
-
-        <p className="title"><a className="active" href="#home"> <b>Skills</b>
-          <b style={{ color: "rgb(72, 185, 72)" }}>Marketplace </b></a>
-        </p>
-
-        <ul className="list">
-          <li>Our Team</li>
-          <li>Terms & Conditions</li>
-          <li>Privacy Policy</li>
-          <li>Project Projection</li>
-          <li>Press Kit</li>
-          <li>FAQs</li>
-        </ul>
-
-        <ul className="list">
-          <li>Labs</li>
-          <li>Moodboard</li>
-          <li>How to Build An Online Business</li>
-          <li>Contact Us</li>
-        </ul>
-
-      </div>
+      <Footer/>
       <p className="copyright">Copyright 2020</p>
       <Link to="/contact">Contact Me!!!!</Link>
     </div>
