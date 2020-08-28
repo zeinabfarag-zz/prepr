@@ -143,12 +143,12 @@ const Home = () => {
           <li>Labs</li>
           <li>Moodboard</li>
           <li>How to Build An Online Business</li>
-          <li>Contact Us</li>
+          <li><Link to ="/contact">Contact Us</Link></li>
         </ul>
 
       </div>
       <p className="copyright">Copyright 2020</p>
-      <Link to ="/contact">Contact Me!!!!</Link>
+      
     </div>
   );
 };

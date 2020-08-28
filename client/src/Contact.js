@@ -3,22 +3,21 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <form action="mailto:SkillsMarketPlace.org" method="post">
-        <h1>Contact SkillsMarketPlace</h1>
+      <form action="mailto:SkillsMarketPlace.org" method="post" enctype="text/plain">
+        <h1>Contact Us</h1>
         <p>
           Interested about our services? Contact us today! We are here to help,
           email us at info@SkillsMarketPlace.org or us the form below to get in
           touch.
         </p>
         <hr />
-        <input type="text" placeholder="What's your name?"></input>
+        <input type="text" name="yourName" placeholder=" Name *"></input>
         <br></br>
-        <input type="text" placeholder="What's your email?"></input>
+        <input type="text" name="yourEmail" placeholder="Email *"></input>
+        <br/>
+        <textarea name="yourMessage" rows="7" cols="100" placeholder="Message *"></textarea>
         <br></br>
-        <textarea rows="4" cols="50"></textarea>
-        <br></br>
-        {/* <input type="submit" className="submit-btn" value="Submit"/> */}
-        <button type="submit">Submit</button>
+        <button class="submit-btn" type="submit">Submit</button>
       </form>
     </div>
   );
