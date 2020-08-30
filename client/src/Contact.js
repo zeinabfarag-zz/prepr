@@ -1,8 +1,13 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+<div>
+<NavBar/>    
+<div className="contact-container">
       <form action="mailto:SkillsMarketPlace.org" method="post" enctype="text/plain">
         <h1>Contact Us</h1>
         <p>
@@ -20,6 +25,8 @@ const Contact = () => {
         <button class="submit-btn" type="submit">Submit</button>
       </form>
     </div>
+<Footer/>
+<div/>
   );
 };
 
