@@ -117,7 +117,9 @@ const Home = () => {
       </div>
 
       <Footer/>
-      <p className="copyright">Copyright 2020</p>
+      <footer>
+        <p className="copyright">©Copyright 2020 SkillsMarketPlace</p>
+      </footer>
     </div>
   );
 };

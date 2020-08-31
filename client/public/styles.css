@@ -7,6 +7,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: #fffff2;
+}
+
 a, a:hover {
     text-decoration: none;
     background-color: none;
@@ -119,6 +123,7 @@ h2 {
 
 .copyright{
     text-align: center;
+    font-size: 1rem;
 }
 .contact-container{
     /* background-color: #52de97; */
