@@ -1,0 +1,43 @@
+
+.services {
+    text-align: center;
+    /* margin: 5% 0%; */
+    margin-top: 5%;
+}
+
+.row {
+    display: flex;
+}
+
+.features-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    padding: 90px 15%;
+}
+
+.feature-icon {
+    font-size: 3.7rem;
+    line-height: 2;
+    color: #52de97;
+    padding:0;
+}
+
+.col-lg-4 {
+    margin-right: 65px;
+}
+
+.col-lg-4 p {
+    font-size: 1.2rem;
+      
+}
+
+.col-lg-4 h4 {
+    background: #52de97;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.eval{
+    margin-right: 30px;
+}
