@@ -7,6 +7,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: #fffff2;
+}
+
 a, a:hover {
     text-decoration: none;
     background-color: none;
@@ -38,6 +42,9 @@ li a {
 .navbar a:hover {
     background-color: #52de97;
     color: white;
+}
+.navbar{
+    border-bottom: 1.5px solid #52de97;
 }
 
 .title{
@@ -116,22 +123,33 @@ h2 {
 
 .copyright{
     text-align: center;
+    font-size: 1rem;
 }
 .contact-container{
-    background-color: #52de97;
+    /* background-color: #52de97; */
     text-align: center;
-    padding: 80px 0;
+    padding: 90px 0;
     /* margin: 10% auto; */
 }
 .contact-container h1 {
     font-size: 60px;
-    font-weight: 400;
+    font-family: Roboto;
+    font-weight: 700;
+    color:rgb(72, 185, 72);
+}
+.contact-container p {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 40px;
 }
 .contact-container input{
-    border: 1px solid rgba(252, 252, 252, 0.4);
+    border: 2px solid black;
     background-color: rgba(252, 252, 252, 0.2);
     width: 250px;
-    border-radius: 3px;
+    border-radius: 30px;
     padding: 10px 15px;
     margin: 0 auto 10px auto;
     display: block;
@@ -140,10 +158,12 @@ h2 {
     font-weight: 300;
 }
 .contact-container textarea{
-    border: 1px solid rgba(252, 252, 252, 0.4);
+    border: 2px solid black;
     background-color: rgba(252, 252, 252, 0.2);
     font-size: 18px;
-    border-radius: 3px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 15px;
 }
 .contact-container button{
     height: 8vh;
